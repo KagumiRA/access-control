@@ -17,7 +17,6 @@
 
 #define threshold 0.4
 
-// children用作以后扩充成为真正的树，目前树高度只有3
 struct valueNode {
     std::vector<valueNode*> parent;
     std::vector<valueNode*> children;
